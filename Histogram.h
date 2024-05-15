@@ -1,3 +1,11 @@
+/**
+ * Histogram class tracks min, max and mode of added EInteger values.
+ *
+ * getMode, getMinValue and getMaxValue member functions will return false
+ * values if no values are added.
+ * Min, max and mode are initialized to Four, Zero and Zero EInteger values
+ * respectively.
+ */
 #ifndef HISTOGRAM_H
 #define HISTOGRAM_H
 
