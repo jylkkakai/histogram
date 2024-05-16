@@ -5,6 +5,11 @@
  * values if no values are added.
  * Min, max and mode are initialized to Four, Zero and Zero EInteger values
  * respectively.
+ *
+ * If there are more than one EInteger values that appear same number of times
+ * in the material, the first one that reached the number will be returned by
+ * getMode function.
+ *
  */
 #ifndef HISTOGRAM_H
 #define HISTOGRAM_H
